@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#f2f7ff">
+<title>MATI 马格测试｜2026 你是什么马？</title>
+<meta name="description" content="2026 马年限定！28 道题，测测你在工作和生活里是哪匹马。16 匹原创小马 + 14 张隐藏卡，测完邀请朋友看看你们是什么组合。Which horse are you? 28 questions, 16 original horses.">
+<meta property="og:title" content="MATI 马格测试｜2026 你是什么马？">
+<meta property="og:description" content="28 道题 · 16 匹马 · 14 张隐藏卡。测完邀请朋友，看看你们是什么组合！">
+<meta property="og:image" content="https://zhouzhouwen.github.io/mati/assets/img/cover.png">
+<meta property="og:url" content="https://zhouzhouwen.github.io/mati/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preload" href="assets/lang-zh.js?v=1.0.0" as="script">
+<link rel="stylesheet" href="assets/style.css?v=1.0.0">
+<style>:root { --hero: #a8d8ff; --paper: #f2f7ff; }</style>
+</head>
+<body>
+<div class="app" id="app">
+  <div id="skeleton"><b>MATI</b><i></i><span class="wait-msg">马儿正在跑过来… · Loading…</span><span class="fail-msg">网络有点慢，刷新一下试试 · Please refresh</span></div>
+  <section class="screen" id="s-home" aria-label="home"></section>
+  <section class="screen" id="s-quiz" aria-label="quiz"></section>
+  <section class="screen" id="s-loading" aria-label="loading"></section>
+  <section class="screen" id="s-result" aria-label="result"></section>
+  <section class="screen" id="s-gallery" aria-label="gallery"></section>
+  <section class="screen" id="s-pair" aria-label="duo"></section>
+  <section class="screen" id="s-about" aria-label="about"></section>
+  <noscript><p style="text-align:center;padding:40px 0">请开启 JavaScript 后再试 · Please enable JavaScript.</p></noscript>
+</div>
+<div class="sheet" id="sheet" hidden>
+  <div class="sheet-bg" data-close></div>
+  <div class="sheet-panel" role="dialog" aria-modal="true">
+    <button class="sheet-x" data-close type="button" aria-label="close">×</button>
+    <div class="sheet-body" id="sheetBody"></div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="fx" id="fx" aria-hidden="true"></div>
+<script src="assets/config.js?v=1.0.0"></script>
+<script src="assets/core.js?v=1.0.0"></script>
+<script src="assets/art.js?v=1.0.0"></script>
+<script src="assets/app.js?v=1.0.0"></script>
+</body>
+</html>
