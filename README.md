@@ -12,7 +12,7 @@
 | --- | --- |
 | 关注二维码、收款码 | `assets/config.js` 的 `follow`、`tip`（图片放在 `assets/img/`） |
 | “来看看其他测试吧” | `assets/config.js` 的 `more`（图标和二维码在 `assets/img/more/`） |
-| 首页访客人数 | `assets/config.js` 的 `counter.busuanzi`（默认开启，用免费的「不蒜子」统计真实访客） |
+| 计数（完成次数、初代徽章、同款占比） | 已接 Cloudflare Worker + D1（`assets/config.js` 的 `counter.api`，三个测试共用，代码和说明在 dogti 仓库的 `worker/`）；连不上时自动改用「不蒜子」打开次数 |
 | 百度统计 | `assets/config.js` 的 `baiduTongjiId` |
 | 题目、16 种类型文案、组合、隐藏款、彩蛋、界面文字 | `assets/lang-zh.js`（中文）、`assets/lang-en.js`（英文） |
 | 计分规则、隐藏款触发条件、默契值、参考文献 | `assets/core.js` |
