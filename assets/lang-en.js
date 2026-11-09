@@ -18,7 +18,7 @@ window.TI_LANG.en = {
    "14 secret cards"
   ],
   "start": "Start the quiz",
-  "proofBase": "Free · No sign-up",
+  "proofBase": "",
   "proofCount": "<b>{n}</b> horses have checked in",
   "proofVisitors": "<b>{n}</b> fellow workhorses have stopped by",
   "lastResult": "Last time you got: ",
@@ -70,8 +70,8 @@ window.TI_LANG.en = {
   ],
   "kicker": "Your inner horse",
   "kickerHidden": "You found a secret horse",
-  "also": "Mostly {a}, with a dash of <b>{b}</b> (you're right in the middle on {dim}).",
-  "hiddenNearest": "Secret horse aside, you're closest to <b>{b}</b>",
+  "also": "You're {a}, with a streak of <b>{b}</b>: your {dim} sits right in the middle.",
+  "hiddenNearest": "Your everyday horse: <b>{b}</b>",
   "secDims": "Your 5 dimensions",
   "dimHuman": "Edition",
   "dimHumanNote": "Your 5th dimension, Wildness, doesn't change which horse you are, just your edition: Wild-Horse or Home-Horse.",
@@ -180,7 +180,7 @@ window.TI_LANG.en = {
   "galTypes": "16 Horses",
   "galMetHint": "Horses you got get a \"Met\" stamp; horses your friends brought get a \"Friend\" stamp",
   "galHidden": "Secret Horses",
-  "galHiddenSub": "Summoned by special ways of answering",
+  "galHiddenSub": "Follow the hints to summon them",
   "galEggs": "Easter Egg Cards",
   "galEggsSub": "Hidden in your speed, the clock, the carrot and the horses themselves",
   "met": "Met",
@@ -213,7 +213,13 @@ window.TI_LANG.en = {
   "metFriend": "Friend",
   "eggFoundOn": "Unlocked {d}",
   "hiddenLocked": "Secret horse",
-  "eggLocked": "Easter egg"
+  "eggLocked": "Easter egg",
+  "hintPet": "Pet me! There's a surprise.",
+  "hintPetMore": "{n} more pats to unlock \"{egg}\"",
+  "hintGoal": "Tap me 3 times!",
+  "tipsTitle": "Easter eggs still waiting for you",
+  "tipsProgress": "{a} of {b} secret cards unlocked",
+  "tipsMore": "See them all →"
  },
  "dims": {
   "C": {
@@ -296,7 +302,7 @@ window.TI_LANG.en = {
   "s5t": "Secret horses & Easter eggs",
   "s5b": "4 secret horses are summoned by special ways of answering, and 10 Easter egg cards hide in your speed, the clock, the carrot and the horses themselves. Every horse on this site can be petted. Hints are in The Stable.",
   "pt": "Privacy",
-  "pb": "Your answers are scored on your device and never uploaded. The visitor count on the home page comes from Busuanzi, a third-party counter that only tallies anonymous visits. Your result lives in your own browser; clearing browser data deletes it.",
+  "pb": "Your answers are scored on your device and never uploaded. To show visitor numbers, the site only counts finished quizzes and the result type (e.g. \"Thoroughbred\"); no IP, name or personal info is stored. The open count on the home page comes from Busuanzi, a third-party counter. Your result lives in your own browser; clearing browser data deletes it.",
   "rt": "References",
   "ct": "Credits",
   "cb": "All MATI copy and horse illustrations are original; the questions are adapted from the public-domain IPIP. Please credit when sharing. QR codes by qrcode-generator (MIT)."
@@ -371,9 +377,9 @@ window.TI_LANG.en = {
  "dimText": {
   "C": [
    "You're chill to the core: the deadline is your starting gun, \"good enough\" is your motto, and you've turned resting into an art form.",
-   "You lean chill: you'll finish the race, just at your own pace. A comfy rhythm matters more to you than first place.",
-   "You can hustle or chill on demand: you sprint when the stretch really counts, and you kick back guilt-free the rest of the time.",
-   "You lean hustle: once a goal is set, you're off and running. Nobody has to chase you on tasks, though you still allow yourself a breather.",
+   "You lean chill: you never jump the gun, you run at the pace that feels right, and you leave the rankings to the horses who love a leaderboard.",
+   "You can hustle or chill on demand: you sprint when the stretch really counts, and you kick back like a pro the rest of the time.",
+   "You lean hustle: once a goal is set, you're off and running. Nobody has to chase you on tasks, and you still know when to stop for a water break.",
    "You're full-throttle hustle: every goal is a finish line, you don't stop until you cross it, and your calendar is more packed than race day."
   ],
   "E": [
@@ -385,10 +391,10 @@ window.TI_LANG.en = {
   ],
   "N": [
    "You're steady as an old horse: when everyone else is panicking, you're still eating fine and sleeping well. Nothing breaks your stride.",
-   "You're calm most of the time: a curveball might make you flinch, but a few deep breaths and you're steady again.",
+   "You're calm most of the time: a curveball can make you flinch, but a few deep breaths and you're steady again.",
    "Your feelings rise and fall but never bolt: you get nervous when it counts, then rein yourself back in on your own.",
    "You feel things strongly: the slightest rustle in the grass gets your heart racing, which is exactly why you spot trouble before anyone else.",
-   "You're a high-sensitivity early-warning radar: one line from your boss or a curt reply in the group chat sets your heart galloping. Remember to brush your own mane now and then."
+   "You're a high-sensitivity early-warning radar: one line from your boss or a curt reply in the group chat sets your heart galloping, which is why you're always first to know when something's up."
   ],
   "A": [
    "You've got edges and you own them: you won't shrink yourself to please anyone, you call it out when something's wrong, and it's about the issue, never the person.",
@@ -413,8 +419,8 @@ window.TI_LANG.en = {
    "tagline": "Goes the extra mile, then circles back for the team.",
    "desc": [
     "You're the all-rounder everyone's quietly relieved to have: capable, fast, and unshakably calm. In meetings, you steer things back on track. When a project stalls, you get everyone pulling in the same direction. Every new hire learns the same rule on day one: when in doubt, ask you.",
-    "They say talent is everywhere, but people who can spot it are rare. You somehow play both parts: you run fast, and you notice everyone else's gifts and give them a boost. People assume you're always fine, and honestly, you usually are. But even a champion needs water breaks, and someone asking, \"Hey, how are you really doing?\"",
-    "Your real win isn't the numbers on your performance review. It's that the whole team runs braver with you on it. Keep shining at full gallop, and save some pasture time for yourself: long lunches, lazy mornings, sunshine. Going far is great. Enjoying the ride is even better."
+    "They say talent is everywhere and talent scouts are rare. You somehow play both parts: you run fast, and you spot everyone else's gifts and give them a boost. Everyone treats you as permanently online, and you rarely go offline. So the day someone finally asks, \"Wait, are YOU tired?\", it takes you three full seconds to come up with an answer.",
+    "Your performance review only covers half of what you do. The other half is how much braver the whole team runs with you on it. That's why at every launch party, everyone tries to put you front and center, while you're off to the side, lining up the perfect group shot."
    ],
    "tags": [
     "Does It All",
@@ -443,7 +449,7 @@ window.TI_LANG.en = {
    "love": "In love, you're steady and all in: fast replies, thoughtful plans, and fights that end in real conversations. You proudly introduce them to everyone and help chase their goals like it's your own project. Just don't send calendar invites for date night. Let them plan one while you get spoiled.",
    "work": "You're the legend every team hopes to land. Reports? Crisp. Presentations? Smooth. Deadlines? Beaten by three days. Meeting goes quiet, you fill the silence. Project catches fire, you grab the extinguisher. New hire gets lost, you draw the map. Your only problem: every new project chat adds you within minutes.",
    "friends": "To your friends, you're life's designated co-pilot: they call you about job offers, moving days, and group dinners. Nothing falls apart with you around. The group chat's biggest unsolved mystery: do your days have 48 hours?",
-   "stress": "Under pressure, you break the problem down, set priorities, and calm whoever's panicking. You rarely crack, but you tend to scoop every task onto your own plate. Hand some off. Even a Thoroughbred shouldn't run the whole race solo.",
+   "stress": "Under pressure, you break the problem down, set priorities, and calm whoever's panicking. You rarely crack, but you do scoop every task onto your own plate, then look up and realize the Thoroughbred is running the relay solo again.",
    "recharge": "A long dinner with friends, swapping the week's best stories, then a morning with no alarm. Instantly recharged.",
    "growth": "Block off a few hours a week when nobody needs you: no group chat, no favors, no fixing anyone's slides. Pass a few opportunities to others, too. The team grows, and you go further with less weight in the saddle.",
    "tips": [
@@ -475,8 +481,8 @@ window.TI_LANG.en = {
    "tagline": "The tougher the fight, the faster you saddle up.",
    "desc": [
     "You were built for the front line. Once there's a goal, you're off, and a tough problem only fires you up more. When a meeting starts running in circles, you cut in: \"Okay, so what are we actually doing?\" In a crunch, you make the call, and people follow because you're decisive and you never flinch.",
-    "You say what you see, even when the person across the table is the boss. It's not that you love a fight; you just really want the thing to work. You might argue hardest in the meeting, then be the first to move on and round everyone up for lunch. Argue the idea, never the person. That's the warhorse code.",
-    "The world needs someone who steps up first and says \"I've got this.\" That's you. Keep that fearless charge, and every so often, slow your gallop so the rest of the herd can keep up. Great leaders don't just run in front. They make sure everyone crosses the finish line together."
+    "You say what you see, even when the person across the table is the boss. All you care about is making the thing work. You're the loudest voice in the meeting and the first to let it go afterward, already rounding everyone up for lunch. Argue the idea, never the person. That's the warhorse code.",
+    "Every team needs the one who steps up first and says \"I've got this.\" That's you. You charge in with your own war drums, glance back mid-gallop to yell \"keep up!\", and somehow the whole team hits a speed they didn't know they had."
    ],
    "tags": [
     "Straight Shooter",
@@ -502,16 +508,16 @@ window.TI_LANG.en = {
     "Already charging while everyone else is still thinking",
     "Someone wants to argue? You'll go all twelve rounds."
    ],
-   "love": "In love, you're a straight shooter: you like them, you say it, and you don't play games. Dates mean hikes and ballgames. Fights get settled on the spot, and you've made up by bedtime. Just remember: not every disagreement is a debate. Sometimes they want a hug, not a solution.",
+   "love": "In love, you're a straight shooter: you like them, you say it, and you don't play games. Dates mean hikes and ballgames. Fights get settled on the spot, and you've made up by bedtime. Just don't turn every disagreement into a debate tournament. When they want a hug, your three-point rebuttal can wait.",
    "work": "When a project goes sideways, your name gets called first. While the team chat fills up with \"so... now what?\", you've booked the room, split the tasks, and set the deadline. You'll flag holes in any plan to anyone's face and say \"I own this.\" Someone asks who's leading? Every head turns your way.",
-   "friends": "To your friends, you're the one who actually does the thing. You said hiking? You're at the trailhead by seven. Someone messes with your crew? You're first to step in. You don't sugarcoat, but everyone feels safer with you around.",
+   "friends": "To your friends, you're the one who actually does the thing. You said hiking? You're at the trailhead by seven. Someone messes with your crew? You're first to step in. No sugarcoating, ever, and everyone sleeps better knowing you're in their corner.",
    "stress": "Pressure flips you into battle mode: make the plan, assign the tasks, charge straight through. You rarely panic, but you get impatient and want to do it all yourself. Rein it in a little, and give your teammates a chance to swing.",
    "recharge": "Sweat it out on a court, at the gym, or up a mountain, then late-night food with friends. Back to full power by morning.",
    "growth": "Your bluntness is a gift, and the order you say things in decides how it lands. Try this: what's working, what's not, what we do next. And ask \"what do you think?\" more often. Watch the whole team move faster.",
    "tips": [
     "Be direct with them. Beating around the bush drives them nuts.",
     "Facing a tough one? Bring them in. They'll lead the charge.",
-    "If they sound harsh, don't take it personally. It's about the work."
+    "They argue hard and move on fast. Move on with them."
    ],
    "peeves": [
     "Don't keep telling them \"let's wait and see.\"",
@@ -536,9 +542,9 @@ window.TI_LANG.en = {
    "short": "Racehorse",
    "tagline": "Always racing ahead, always glancing at the scoreboard.",
    "desc": [
-    "You come with your own starting pistol: driven, quick, and easy to like. In the team chat, you're always first to reply \"Got it!\" Give you a goal, a rival, and a crowd, and your eyes light up. You don't hustle just to win. You hustle because you never want to let down anyone who's counting on you.",
-    "The thing is, mid-race, you can't help peeking at the next lane. Where's everyone else at? Am I falling behind? When your manager says \"got a minute?\", your brain writes a whole season of drama. You care about rankings because you care what people think, and trust us, everyone has noticed how hard you work.",
-    "Here's a gift: a pair of racing blinkers. Eyes on your own lane, and you'll find your best pace. You don't have to finish first every time to prove you're good. You already are. Between sprints, look up, enjoy the view, and listen to the crowd that's been cheering for you all along."
+    "You come with your own starting pistol: driven, quick, and easy to like. In the team chat, you're always first to reply \"Got it!\" Give you a goal, a rival, and a crowd, and your eyes light up. Half of your hustle is wanting to win. The other half is never wanting to let down a single person who's counting on you.",
+    "Mid-race, you can't help peeking at the next lane. Where's everyone else at? Am I falling behind? When your manager says \"got a minute?\", your brain writes a whole season of drama. What you're tracking is approval: one \"nice work\" from anyone, and you screenshot it for the archive.",
+    "Here's a gift: a pair of racing blinkers. Eyes on your own lane, and your pace gets scary good. Plus some inside info from the stands: the loudest row in the bleachers? Every sign they're holding has your name on it."
    ],
    "tags": [
     "Born Competitor",
@@ -564,12 +570,12 @@ window.TI_LANG.en = {
     "One compliment lasts three days. One critique, a week.",
     "Wants everyone happy, ends up the most tired"
    ],
-   "love": "In love, you're all heart and all effort: anniversaries remembered, texts answered instantly, the best of everything saved for them. Sometimes you wonder if other couples have it more romantic. Stop scrolling their highlight reels. Your person loves you for exactly this kind of caring. Write your own story.",
+   "love": "In love, you're all heart and all effort: anniversaries remembered, texts answered instantly, the best of everything saved for them. See another couple's dreamy date online? You save it, draft three versions overnight, and have your person's whole day planned by morning.",
    "work": "You're the team's engine: first to reply, most detailed weekly report, first to grab the hardest piece of the group project. When the rankings come out, you find your name first, then calculate the gap to the next spot. And the night before your review? You'll replay the entire year in your head. Three times.",
-   "friends": "To your friends, you're the easiest yes and the most thoughtful one: birthdays remembered, every hangout attended, always there to cheer. They admire your drive, and they kind of want to tell you: you're already ahead. Stop looking back.",
+   "friends": "To your friends, you're the easiest yes and the most thoughtful one: birthdays remembered, every hangout attended, always there to cheer. They admire your drive, and they love watching you say \"I'm so behind\" while comfortably leading the pack.",
    "stress": "When pressure hits, you push harder: triple checks and constant \"is this okay?\" messages. When your mind won't stop racing, list the worries, give each one a fix, then talk it out with a friend. It's way less scary on paper.",
    "recharge": "A sweaty run or a pickup game with friends, plus one sincere \"you did great.\" Instant full battery.",
-   "growth": "Put on your blinkers: compare yourself only to yesterday's you. Swap the leaderboard for three small goals, and celebrate each one you hit. You're fast enough already. Now try running a little happier.",
+   "growth": "Put on your blinkers: compare yourself only to yesterday's you. Swap the leaderboard for three small goals, and treat yourself to a boba for each one you hit. Even racehorses run better on sugar cubes.",
    "tips": [
     "When they do well, tell them. Out loud, to their face.",
     "They care about feedback. Give it early, and give it kindly.",
@@ -599,8 +605,8 @@ window.TI_LANG.en = {
    "tagline": "Others turn in work. You turn in masterpieces.",
    "desc": [
     "You're the horse with a built-in spotlight: talented, ambitious, and impossible to ignore. Whatever you touch, you want it to be the best possible version of itself. When someone says \"good enough,\" you hear \"not yet.\" You walk into a room and people listen, and with you on the team, everyone's work quietly levels up.",
-    "What nobody sees is how many drafts got trashed along the way. The night before a big pitch, you rehearse it ten times in your head, and one tiny flaw can bug you for days. You're tough on others and tougher on yourself. You speak up because you truly believe everyone deserves a better result.",
-    "Golden steeds are legendary for a reason, and so is your effort. But you don't have to be flawless to deserve applause. Keep that high bar, and give your heart a vacation now and then. The day you land a solid 90 percent deserves a celebration, too."
+    "Behind every polished result is a pile of drafts you personally trashed. The night before a big pitch, you rehearse it ten times in your head, and one tiny flaw can bug you for days. You're tough on others and tougher on yourself, and if something could be better, you say so on the spot.",
+    "Golden steeds are legendary for a reason, and so is your effort. Even your celebrations have standards: sparkling water ice-cold, cake photogenic, group photo reshot three times. So the next time you land a 90, throw the full-spec party anyway. Let the missing ten points be jealous."
    ],
    "tags": [
     "Raising the Bar",
@@ -626,16 +632,16 @@ window.TI_LANG.en = {
     "Draft eight and it's still \"not quite there\"",
     "Holds teammates to the same high bar. Some call it strict."
    ],
-   "love": "In love, you've got taste and go all in: the best restaurant, the most thoughtful gift. You admire people who shine, and you'll say so when something's off. A little voice sometimes asks if you're enough, or if they love you enough. Relax. Love isn't a performance review. No need to ace it.",
+   "love": "In love, you've got taste and go all in: the best restaurant, the most thoughtful gift. You admire people who shine, and you'll say so when something's off. Every so often you secretly grade the relationship, decide you were too harsh, and quietly add two points back.",
    "work": "You're the quality ceiling: gorgeous formatting, airtight numbers, a presentation people actually remember. When everyone says \"it works,\" you say \"it should work beautifully.\" You'll flag the fatal flaw in a plan while the whole room is nodding along. One minute before the deadline? Still adjusting the font size.",
-   "friends": "To your friends, you're the taste-maker and the brutally honest advisor in one. You pick the restaurant, choose the gift, and fix the résumé. You don't mince words, but every one of them makes people better. A little intimidating, a lot respected.",
+   "friends": "To your friends, you're the taste-maker and the brutally honest advisor in one. You pick the restaurant, choose the gift, and fix the résumé. One note from you hits the bull's-eye, and every plan you've picked apart comes back stronger. A little intimidating, a lot respected.",
    "stress": "Under stress, you raise the bar even higher: late nights, extra polish, nerves peaking right before the deadline. Ask yourself: what happens if this is an 80? Usually, nobody can tell the difference, and you finally get some sleep.",
    "recharge": "A beautiful dinner, a long bath, or a live show. Lovely things are how you refill the tank.",
-   "growth": "Set a \"good enough\" line for each task. Hit it, ship it, skip the three extra rounds of edits. Save that energy for the one thing that truly matters. Your high bar is a gift. Don't let it become a cage.",
+   "growth": "Set a \"good enough\" line for each task. Hit it, ship it, skip the three extra rounds of edits. Pour the saved energy into the one thing that truly matters, and take that one to 120 percent.",
    "tips": [
     "Compliment them specifically. Vague praise won't convince them.",
     "Give them enough time to polish things properly.",
-    "Their feedback is blunt, but it's always about making things better."
+    "Their feedback is blunt. Follow it, and the result always comes out better."
    ],
    "peeves": [
     "Never tell them to \"just throw something together.\"",
@@ -649,7 +655,7 @@ window.TI_LANG.en = {
     "One more color tweak. Then it's perfect.",
     "The bar stays high. Non-negotiable.",
     "Do I still sparkle today? Just checking.",
-    "High bar, not high horse. Promise."
+    "Saddle up? Then make it gorgeous."
    ],
    "cHi": "High standards plus fresh ideas: every project needs a dazzling version nobody's seen before.",
    "cLo": "Polishes the classic approach to perfection. The safest method, the most stunning result."
@@ -662,7 +668,7 @@ window.TI_LANG.en = {
    "desc": [
     "You're the quiet one who somehow knows everything. Where the files live, how the process really works, which potholes to dodge: you've got the whole map in your head. You rarely post in the group chat, but anyone who DMs you gets the exact answer, step by step. Old horses know the way. That's you.",
     "You don't chase the spotlight or the crowd. You'd rather get things done quietly and well. When everyone else is panicking, you take a sip of water and untangle the mess one thread at a time. You don't think you're anything special, but the whole team has quietly agreed: with you around, nobody gets lost.",
-    "Your reliability was built one small promise at a time, like a lamp that never glares and never goes out. Remember to shine for yourself, too: take the credit you've earned and say your wins out loud. You know every road. Now and then, stop and look at how far you've come."
+    "Your reliability was built one small promise at a time, like a lamp that never glares and never goes out. You never count how many new hires you've guided or projects you've saved. Everyone else keeps count, and every December someone stops by your desk just to say, \"Thank goodness for you.\""
    ],
    "tags": [
     "Human GPS",
@@ -686,14 +692,14 @@ window.TI_LANG.en = {
     "Your self-review sounds like it's about someone else",
     "Too nice to say no. Requests form a line.",
     "One all-day meeting costs one full evening alone",
-    "So calm, people assume you're never stressed"
+    "So calm nobody notices when you're swamped"
    ],
-   "love": "In love, you're less fireworks, more warm fireplace. You remember their coffee order, you're never late for pickups, and you can talk through a fight without raising your voice. Your love lives in small, steady things. Just say \"I care about you\" out loud sometimes. It'll make their week.",
+   "love": "In love, you're less fireworks, more warm fireplace. You remember their coffee order, you're never late for pickups, and you can talk through a fight without raising your voice. Your love lives in small, steady things, so the day you casually say \"I care about you,\" it makes their whole week.",
    "work": "You're the team's living map: how the new system works, where the old files went, who signs off on expenses. In meetings, you barely speak; afterward, there's a line in your DMs. Your work quietly lands early. And the person the boss trusts most? Usually the calm old horse who never makes a fuss.",
    "friends": "To your friends, you're the one they don't hear from much but who always comes through. You don't organize the hangouts, but when someone's moving or stuck on a thesis, you show up, help out, and slip away before anyone can thank you.",
-   "stress": "When things get hectic, you slow down, line the tasks up, and push through one step at a time. You rarely panic, so you become everyone's emotional storage unit: whoever's freaking out comes to you. Make sure you have someone to vent to, too.",
+   "stress": "When things get hectic, you slow down, line the tasks up, and push through one step at a time. You rarely panic, so you become everyone's emotional storage unit: whoever's freaking out comes to you. Even storage units need emptying, so keep one person on speed dial for your own venting.",
    "recharge": "Tea, a few pages of a book, the sound of rain. A few quiet hours and you're back at full charge.",
-   "growth": "Your know-how is too valuable to live only in DMs. Turn the questions you always get into a short guide and share it. And brag a little in your year-end review. Being seen is something you've earned.",
+   "growth": "Your know-how is too valuable to live only in DMs. Turn the questions you always get into a short guide and share it. And brag a little in your year-end review. At least make it sound like it's about you.",
    "tips": [
     "DM them your question. Faster than shouting in the group chat.",
     "When they help you, thank them properly.",
@@ -711,7 +717,7 @@ window.TI_LANG.en = {
     "Straight from the horse's mouth: folder three.",
     "No panic. Sip some water first.",
     "Just DM me if you get stuck.",
-    "New here? Don't worry, I've got you."
+    "New here? Stick with me. I've got you."
    ],
    "cHi": "A veteran who loves a new trail: deep experience plus new tools that keep smoothing the old process.",
    "cLo": "Trusts what's proven. Same method for ten years, zero mistakes. The team's steadiest pillar."
@@ -722,9 +728,9 @@ window.TI_LANG.en = {
    "short": "Dark Horse",
    "tagline": "Off everyone's radar, right up until the results come in.",
    "desc": [
-    "You fly so far under the radar that people forget you're even in the race, until the results come in. You barely post, rarely chime in, and folks assume you're coasting. Then, without a word, you pull off something huge. You don't need an audience or applause. Headphones on, and the whole track is yours.",
+    "You fly so far under the radar that people forget you're even in the race, until the results come in. You barely post and rarely chime in, and then, without a word, you pull off something huge. You don't need an audience or applause. Headphones on, and the whole track is yours.",
     "You've got your own pace and your own mind. You don't follow the herd, and you don't bother explaining. When everyone else gets loud, you stay calm. When people doubt you, you don't argue; the results will. You don't say much, but you say it straight, and your \"no\" comes easy because you know exactly what you want.",
-    "Dark horses never come out of nowhere. They've just been running alone for a long, long time. Keep your own pace, and now and then let people in on what you're building. Not for the applause, but because some of them would love to run alongside you. Your quiet is its own kind of power."
+    "Every dark horse spent a long time running alone before anyone noticed. On the day you cross the line, the whole stadium asks, \"Where did THAT horse come from?\" And you're just taking off your headphones, already eyeing the next track."
    ],
    "tags": [
     "Under the Radar",
@@ -746,16 +752,16 @@ window.TI_LANG.en = {
    ],
    "cons": [
     "Your progress is a mystery. Teammates are sweating.",
-    "Left them on read, but the work's already done",
+    "Leaves you on read, then the next message is just \"done.\"",
     "Skipping team-building? Won't even invent an excuse.",
     "Asked for a status update, replies \"mm.\""
    ],
-   "love": "In love, you're not one for pet names or sweet talk, but your actions say it all. They mention a wish in passing, and months later, you quietly make it happen. You need your space and you respect theirs. Just say what you feel out loud now and then, so they don't have to guess.",
+   "love": "In love, you skip the pet names and sweet talk and let your actions do the talking. They mention a wish in passing, and months later, you quietly make it happen. You need your space and you respect theirs. Just say what you feel out loud now and then, so they don't have to guess.",
    "work": "You're the team's secret weapon. You sit in the corner at meetings, never pop up in the chat, and your weekly report is three lines long. Then the quarter wraps, and your numbers are the ones everyone's talking about. Pointless meetings bore you. You'll say you disagree, then let the results settle it.",
    "friends": "To your friends, you're the mysterious pro. You vanish for a while, then resurface with big news: a promotion, an award, a skill you mastered in secret. Few words, but when someone's truly stuck, your fix is the most useful one around.",
-   "stress": "Crunch time? You go even quieter: door closed, head down, no asking for help. You stay steady, but you'll carry the whole load solo if nobody stops you. Try saying \"I could use a partner on this.\" Running side by side isn't so bad.",
+   "stress": "Crunch time? You go even quieter: door closed, head down, no asking for help. You stay steady, but you'll carry the whole load solo if nobody stops you. That's your cue to say \"I could use a partner on this.\" Two horses running abreast cover ground twice as fast.",
    "recharge": "Headphones on for a solo run, a long ride, or a few rounds of a game. No talking required. Fully charged in a few hours.",
-   "growth": "Try a quick progress update once a week, even if it's just three lines. It's not bragging; it makes teamwork smoother. Running solo makes you fast. Bringing the team along takes you far.",
+   "growth": "Try a quick progress update once a week, even if it's just three lines. When the team knows where you are, every handoff gets cleaner. Running solo makes you fast. Bringing the team along takes you far.",
    "tips": [
     "Wondering what they're up to? Just ask. Don't guess.",
     "Give them a goal, then step back and let them run.",
@@ -785,8 +791,8 @@ window.TI_LANG.en = {
    "tagline": "Saddlebags stuffed with everyone's backup plans.",
    "desc": [
     "You're the least flashy and most essential horse on the team. Someone says \"could anyone take this?\" and it's already in your saddlebag. The deadline's days away, but you're done, with a backup plan on the side. Your bag always has a charger, tissues, and bandages for whoever needs them.",
-    "You're quiet, but you notice everything. You'll type, delete, and retype \"Got it\" three times, and those little \"typing...\" dots make you hold your breath. You hate being a bother and dread letting anyone down, so your own needs keep sliding to the bottom of the list. For the record, everyone remembers what you've carried.",
-    "Every team runs on someone like you. Try unpacking a little. Not everything is yours to haul, and saying \"I can't take this one\" won't make the sky fall. You deserve to be looked after, the way you've always looked after everyone else."
+    "You're quiet, but you notice everything. You'll type, delete, and retype \"Got it\" three times, and those little \"typing...\" dots make you hold your breath. You hate being a bother and dread letting anyone down, so on your to-do list, your own stuff always sits on the very last line, in the smallest font.",
+    "Every team runs on a horse like you. The backup plans, the chargers, the bandages: all of it lives in your saddlebag. So the day someone grabs that bag to carry it for you, you'll politely refuse three times, then secretly glow for the rest of the day."
    ],
    "tags": [
     "Quiet Backbone",
@@ -812,12 +818,12 @@ window.TI_LANG.en = {
     "Can't say no, so weekends go to other people's edits",
     "Exhausted, still insisting \"I'm fine, really!\""
    ],
-   "love": "In love, you're thoughtful down to the details: you remember their offhand comments, remind them to grab a jacket, pack an extra umbrella. You skip the grand gestures, but they always come first. You can overthink, too: one slow reply and your mind starts racing. Relax. They're just busy.",
+   "love": "In love, you're thoughtful down to the details: you remember their offhand comments, remind them to grab a jacket, pack an extra umbrella. You skip the grand gestures, but they always come first. You can overthink, too: one reply ten minutes late and you've drafted eight theories. Turns out they were in line for boba.",
    "work": "You're the team's load-bearing wall. Someone in the chat asks \"can somebody follow up on this?\" and somehow it lands on you. You never procrastinate, and your handoff docs read like instruction manuals. You barely speak in meetings, yet you've quietly logged everyone's to-dos. Without you, the project would've collapsed ages ago.",
-   "friends": "To your friends, you're the quiet quartermaster: you book the table, pack the meds for the trip, and stay with whoever's having a rough day. Everyone's itching to say it: stop taking care of us for a second. Take care of you.",
-   "stress": "When stress piles up, you work harder and carry it all alone, replaying tomorrow in your head at bedtime. Try two things: write the worries down, then hand some tasks off. Nobody's asking you to carry the whole world.",
+   "friends": "To your friends, you're the quiet quartermaster: you book the table, pack the meds for the trip, and stay with whoever's having a rough day. The group chat has a secret plan: next hangout, you're on eating duty only, and nobody lets you near the bill.",
+   "stress": "When stress piles up, you work harder and carry it all alone, replaying tomorrow in your head at bedtime. Try two things: write the worries down, then hand some tasks off. Your saddlebag holds a lot, but \"the whole world\" was never on the packing list.",
    "recharge": "A hot bath, a cozy blanket, an easy show, and an early night. Unpack your mental luggage one piece at a time.",
-   "growth": "Before saying yes to a new task, ask yourself: \"Can I actually carry this right now?\" Try \"let me check my schedule\" instead of an instant yes. Your kindness is precious. Save some for yourself.",
+   "growth": "Before saying yes to a new task, ask yourself: \"Can I actually carry this right now?\" Swap the instant yes for \"let me check my schedule,\" and the weekend you save buys you a whole afternoon at the flower market.",
    "tips": [
     "Ask them for help, but don't dump everything on them.",
     "They do a lot quietly. Say \"thank you\" and mean it.",
@@ -833,7 +839,7 @@ window.TI_LANG.en = {
    "lines": [
     "Neigh... I packed everything we need.",
     "Need a bandage? I've got spares.",
-    "I'll handle it. It's fine, really!",
+    "I'll handle it. No problem, really!",
     "Wait, did that come out wrong?",
     "Heavy bag today, but I can do it!"
    ],
@@ -848,7 +854,7 @@ window.TI_LANG.en = {
    "desc": [
     "Your eyes come with built-in quality control. Typos, crooked formatting, a decimal point one spot off: nothing gets past you. You're thorough to the point of stubborn, and you'd rather spend three times as long than let one mistake slip through. \"Close enough\" simply isn't in your vocabulary.",
     "Your world runs in black and white: right is right, wrong is wrong, and rules are there to be followed. If something's off, you'll say so, even to the boss. But inside, you're always rechecking: that report you already turned in? You're still proofreading it in your head. You hold everyone to a high bar, and the highest one is for yourself.",
-    "Your care is the reason so many things land safely. Give yourself a little gray area, too: let one small mistake exist, and watch the world keep spinning. No two zebras have the same stripes. Your imperfect bits are part of what makes you one of a kind."
+    "Your care is the reason so many things land safely. Files you've checked get signed without a second look. Tables you've formatted have even their blank cells standing in formation. You're so black-and-white that your stripes must have been drawn with a ruler."
    ],
    "tags": [
     "Detail Detective",
@@ -874,12 +880,12 @@ window.TI_LANG.en = {
     "Would rather redo it than accept a sloppy version",
     "One spotted mistake can ruin your whole evening"
    ],
-   "love": "In love, you're serious and loyal. If you like someone, you mean it, and mixed signals aren't your thing. You keep every promise and hope they'll keep theirs. You won't say much, but small things echo in your head. Love isn't an exam, though. Some mistakes deserve a laugh and a fresh start.",
+   "love": "In love, you're serious and loyal. If you like someone, you mean it, and mixed signals aren't your thing. You keep every promise and hope they'll keep theirs. Small things echo in your head: you still remember the five minutes they were late last Tuesday. Luckily, one \"I'll be early next time\" closes the case on the spot.",
    "work": "You're the team's last line of defense. File names follow a convention, and citations are right down to the comma. You rarely speak in meetings, but when you do, it's \"the number on page 12 is wrong.\" You'll redo it at midnight before you'll submit anything flawed. With you checking, everyone sleeps better.",
-   "friends": "To your friends, you're the ultimate proofreader: they send you leases, essays, and trip itineraries to double-check. You don't let flaws slide, and you won't sugarcoat them, but everyone knows every issue you flag is a real one.",
+   "friends": "To your friends, you're the ultimate proofreader: they send you leases, essays, and trip itineraries to double-check. You never sugarcoat a flaw, and every issue you flag turns out to be a real one.",
    "stress": "Deadline week? You get even more exacting: check, tweak, check again, and lose sleep as the clock runs down. Try a checklist: tick every box once, then submit. No fourth round allowed.",
    "recharge": "Sorting a bookshelf by color or getting lost in a jigsaw puzzle, alone and in peace. Instant calm.",
-   "growth": "Swap \"perfect\" for \"done\": ship an 80 percent version, then improve it with feedback. And let others do things their way. A different standard isn't automatically a wrong one.",
+   "growth": "Swap \"perfect\" for \"done\": ship an 80 percent version, then improve it with feedback. When someone does it differently, check their result before you speak up. Sometimes their route is even straighter than the one you drew.",
    "tips": [
     "Proofread anything before you hand it to them.",
     "When they catch a mistake, thank them first.",
@@ -908,9 +914,9 @@ window.TI_LANG.en = {
    "short": "Carousel",
    "tagline": "I bring the music. Everybody gets a ride.",
    "desc": [
-    "You're the coworker who comes with a soundtrack. Easygoing, quick to laugh, and steady as a carousel's beat, you can revive a dead group chat with one perfect GIF and make the new hire feel at home by lunch. Being number one isn't your thing. Making sure everyone has a decent day absolutely is.",
-    "Your whole philosophy fits on a ride ticket: going slow is fine, as long as everyone on board is smiling. Deadlines don't spook you, and \"no big deal\" is basically your catchphrase. That calm is exactly why people drift your way when things get hectic. Every so often, though, all that going in circles makes you forget where you were headed.",
-    "The world moves fast, and it needs someone who isn't racing anywhere, someone who'll take everybody around for one more spin. You've made a lot of long workdays end with a laugh. Keep the music playing. And when you're ready to ride somewhere new, a whole crowd will be climbing on with you."
+    "You're the coworker who comes with a soundtrack. Easygoing, quick to laugh, and steady as a carousel's beat, you can revive a dead group chat with one perfect GIF and make the new hire feel at home by lunch. Your personal leaderboard tracks exactly one stat: how many times the team laughed today.",
+    "Your whole philosophy fits on a ride ticket: music on, everyone on board smiling, and the ride was worth it. Deadlines don't spook you, and \"no big deal\" is basically your catchphrase. That calm is exactly why people drift your way when things get hectic, and before long, every seat around you is taken.",
+    "The whole world is rushing somewhere, and you're over here with the music on, pulling everyone up for one more spin. Plenty of people made it through a 9 p.m. workday laughing, thanks to the GIF you dropped in the chat. And the day you announce a trip somewhere far? The sign-up sheet fills in five minutes."
    ],
    "tags": [
     "Human Soundtrack",
@@ -937,11 +943,11 @@ window.TI_LANG.en = {
     "Meeting goes off the rails? You started the horsing around."
    ],
    "love": "Dating you is a theme park that never closes: big laughs, sweet surprises, and fights that rarely outlast dinner, because you just can't stay mad. No games, no cold shoulders. One small tip: put the anniversary in your phone. Your heart's always in the right place. Your memory is more of a freelancer.",
-   "work": "You're the office's happiness infrastructure. You start the afternoon snack run, host the team-building games, and rescue every joke that dies in a meeting. Mondays hurt less with you around. Deadlines don't scare you, even when you start the night before. Luckily, everyone likes you, so someone always saddles up to help.",
+   "work": "You're the office's happiness infrastructure. You start the afternoon snack run, host the team-building games, and rescue every joke that dies in a meeting. Mondays hurt less with you around. Deadlines don't scare you either: to you, the night before is a bonus team event, and half the office volunteers to stay and keep you company.",
    "friends": "In any friend group, you're the human soundtrack: with you around, even a random Tuesday dinner feels like a holiday. Two friends not speaking? You plan one group dinner, and they leave laughing like nothing happened.",
    "stress": "When pressure hits, you smile first and book dinner with friends second. Panic isn't your thing; nudging the real work down the road sometimes is. What helps most: a buddy who chops the task into bite-size pieces and checks them off with you.",
    "recharge": "Karaoke with a big crew until your voice gives out. Or one ride on an actual carousel.",
-   "growth": "Your joy is precious, so don't let procrastination steal it. Try the ten-minute rule: ten minutes of real work before any chatting. Put small promises in your phone the second you make them. The ride feels even better with nothing hanging over you.",
+   "growth": "Try the ten-minute rule: ten minutes of real work before any chatting. Put small promises in your phone the second you make them. With the to-do list cleared, you can crank the music all the way up.",
    "tips": [
     "Invite them last-minute. They're always down for dinner.",
     "Send them a friendly nudge before a deadline.",
@@ -971,8 +977,8 @@ window.TI_LANG.en = {
    "tagline": "Loose reins, open fields, zero fake smiles.",
    "desc": [
     "You're impossible to fence in. You love a crowd, make friends anywhere, and stay cool no matter what's on fire. Being scheduled down to the minute isn't for you; you'd rather run free. And when something feels off, you say so, plainly, with zero passive aggression.",
-    "People assume you're just here for a good time, but you carry a very clear compass: you know what's worth the sprint and what's not worth the drama. You don't chase rankings, and you're not scared of the awkward pause after an honest opinion. You simply can't fake agreeing. Your wild streak is really honesty in motion.",
-    "You've shown the people around you that the trail is theirs to choose, and life can run a little looser. Stay this free and this straightforward. And now and then, glance back: there's a whole herd of friends galloping behind you, a little wilder for knowing you."
+    "You carry a very clear compass: you know what's worth the sprint and what's not worth the drama. You don't chase rankings, and awkward silences don't scare you. The one thing you can't do is fake agreeing, not even for a second. Your wild streak is honesty in motion.",
+    "You've shown the people around you that the trail is theirs to choose, and life can run a little looser. Glance back: there's a whole herd of friends galloping behind you, a little wilder for knowing you, and every Friday at five they're waiting for your \"let's get out of town.\""
    ],
    "tags": [
     "Free Spirit",
@@ -1007,7 +1013,7 @@ window.TI_LANG.en = {
    "tips": [
     "Invite them outdoors. Way easier than inviting them to a meeting.",
     "Give them the goal, then let them pick the route.",
-    "They're blunt, not mean. Don't take it personally."
+    "Their bluntness is a perk: you always get the real answer."
    ],
    "peeves": [
     "Don't make them check in every hour.",
@@ -1032,9 +1038,9 @@ window.TI_LANG.en = {
    "short": "Pony",
    "tagline": "Tiny hooves, huge heart, whole team in my corner.",
    "desc": [
-    "You're the one the whole team adopts by week two. Bubbly, sweet, and easy to love, you chat with anyone, share snacks with everyone, and almost never say no. You don't need to be the fastest horse in the race. You just want the whole herd to cross the finish line together.",
-    "Under all that sunshine is a heart that startles easily. One \"quick chat?\" from your manager and you've already scripted ten endings. A message left on read sends you scrolling back through the chat for clues. The upside: you never bottle it up. You say \"help, I'm freaking out,\" and someone always catches you.",
-    "Who says soft can't be strong? A sincere \"thank you\" and a shared bag of snacks can warm up a whole office. People look out for you because you're worth it. Take your time growing up. You'll never have to run alone."
+    "You're the one the whole team adopts by week two. Bubbly, sweet, and easy to love, you chat with anyone, share snacks with everyone, and almost never say no. In your rulebook, racing is a team sport: nobody wins until the whole herd crosses the line together.",
+    "Your heart startles easily. One \"quick chat?\" from your manager and you've already scripted ten endings. A message left on read sends you scrolling back through the chat for clues. And you never bottle it up: one \"HELP\" in the group chat, and within three seconds somebody replies \"on my way.\"",
+    "A sincere \"thank you\" and a shared bag of snacks, and you've warmed up the whole office. Take one day off and the group chat goes suspiciously quiet. Come back, and the snack drawer and the group chat both spring back to life. Team darling is a title you've locked down."
    ],
    "tags": [
     "Team Baby",
@@ -1060,12 +1066,12 @@ window.TI_LANG.en = {
     "Says yes to every favor, then drowns in them",
     "Panic-texts the group chat the night before the deadline"
    ],
-   "love": "You're a text-me-all-day kind of partner: good morning, good night, and a photo of every great snack you find. You need reassurance, so a slow reply sends your mind racing. The right person gets it: your \"you there?\" isn't checking up on them. You're just checking you two are okay.",
+   "love": "You're a text-me-all-day kind of partner: good morning, good night, and a photo of every great snack you find. You run on certainty, so a slow reply sends your mind racing. Translated, your \"you there?\" means \"miss you, are we good?\" and the right person reads it instantly.",
    "work": "Officially the team's darling, you send \"got it!!\" with three emojis. Stuck? You never suffer in silence: one \"help, please!\" summons half the team. Deadlines rattle you, but after three drafts and five \"Is this okay?\" messages, you always deliver.",
    "friends": "Your friends treat you like the baby of the group: someone always remembers the way for you, and someone always has your back. You spoil them right back, with birthday wishes every year (occasionally a day late) and the first hug whenever anyone's down.",
    "stress": "When stress hits, you panic out loud: ten voice messages, then a \"what do I do?\" to everyone you know. Saying it already cuts it in half. What helps most: someone saying \"just do the first thing,\" then sorting the rest with you.",
    "recharge": "Dessert with your favorite people, a few sincere compliments, and one giant hug. Battery: full.",
-   "growth": "Feedback is about the draft, not about you, so try to keep the two apart. Write down one thing you did well each day. Read it back on rough days. You'll be surprised how tough you are.",
+   "growth": "When feedback lands, file \"the draft\" and \"me\" in two separate folders. Write down one thing you did well each day. Read it back on rough days. You'll be surprised how tough you are.",
    "tips": [
     "Hype them up. One compliment fuels them for a week.",
     "Give feedback gently. They'll fix it faster.",
@@ -1095,8 +1101,8 @@ window.TI_LANG.en = {
    "tagline": "Every feeling gets a spotlight. Every day is opening night.",
    "desc": [
     "Wherever you go, the stage lights follow. Expressive, vivid, and impossible to ignore, you can turn a minor elevator moment into a three-part miniseries. Crowds energize you, and you love being seen. If something's bothering you, you won't swallow it; you'll say it right there, with feeling. Life with you is never boring.",
-    "The theatrics are just your delivery. The feelings are 100% real: one compliment sends you soaring, one misunderstanding can sink a whole evening. You're sensitive, but never a pushover. You'd rather clear the air on the spot than smile and suffer. Cry it out, talk it out, and you're the brightest pony in the ring again.",
-    "Most people hide their feelings. You turn yours into stories that make people laugh and make them feel understood. So keep being the one who cries freely, laughs loudly, and says \"I disagree\" out loud. You're the mane character here. Take the spotlight. It's yours."
+    "Every bit of the drama is 100% real: one compliment sends you soaring, one misunderstanding can sink a whole evening. If something needs saying, you clear the air on the spot instead of smiling and suffering. Cry it out, talk it out, and you're the brightest pony in the ring again.",
+    "Other people bury their feelings in their notes app. You turn yours into stories: people laugh along, and they see themselves in every scene. You cry freely, laugh loudly, and say \"I disagree\" in front of everyone. You're the mane character here, and the front row is already packed with your regulars."
    ],
    "tags": [
     "Mane Character",
@@ -1123,8 +1129,8 @@ window.TI_LANG.en = {
     "When feelings spike, your mouth beats your brain"
    ],
    "love": "Romance with you comes with the volume up: anniversaries deserve a moment, small hurts get said out loud, and the silent treatment is not in your script. Fights play out like a sitcom, and the makeup scene comes fast. You need to be seen, so a flat \"k\" can launch a midnight heart-to-heart.",
-   "work": "You have the most expressive face in any meeting, a weekly report that reads like a screenplay, and the closing act at every holiday party. Deadline eve brings your classic trilogy: meltdown, breakthrough, submit. Somehow it always works. Misunderstood? You set the record straight on the spot, saying what everyone else was thinking.",
-   "friends": "Your friends get live entertainment: the same story is funnier when you tell it. You love hard and protect harder; mess with your people and you're first in line. Sometimes you boil over, but they're used to it. You cool down just as fast.",
+   "work": "You have the most expressive face in any meeting, a weekly report that reads like a screenplay, and the closing act at every holiday party. Deadline eve brings your classic trilogy: meltdown, breakthrough, submit, and the curtain falls right on time. Misunderstood? You set the record straight on the spot, saying what everyone else was thinking.",
+   "friends": "Your friends get live entertainment: the same story is funnier when you tell it. You love hard and protect harder; mess with your people and you're first in line. Your temper is a summer thunderstorm: in fast, out fast, and usually followed by a rainbow.",
    "stress": "Stress hits and you go full opera: long voice notes, a good midnight cry. Then, weirdly, you're calm enough to get to work. What helps: an audience who hears the whole thing without judging, plus something warm to drink.",
    "recharge": "A big dinner with the friend who truly gets you. Talk it all out, and the sparkle comes right back.",
    "growth": "Keep the mic on, but install a pause button. When you're fired up, write it down and sleep on it before you hit send. Save the big energy for what truly matters, and your voice will carry even further.",
@@ -1139,7 +1145,7 @@ window.TI_LANG.en = {
     "Don't go cold on them when they're upset."
    ],
    "weekend": "An afternoon show with friends, a buzzing little restaurant at night, and this week's best stories told until the whole table is crying laughing.",
-   "quote": "Life's a stage. I'm just very committed to the role.",
+   "quote": "Life's a show, and I'm very committed to my role.",
    "lines": [
     "Neigh! Where's my spotlight?",
     "Okay, I need to talk about this.",
@@ -1158,7 +1164,7 @@ window.TI_LANG.en = {
    "desc": [
     "Your calm is contagious. You talk slowly, smile easily, and your mood is basically a warm bath. You don't need the spotlight and you rarely argue. A coworker asks for a hand and you say \"sure\" without a sigh. Everyone else is galloping. You're floating.",
     "Technically, you're a horse too: \"hippopotamus\" is Greek for \"river horse.\" And like any good hippo, you sit in the water with just your eyes showing. You lurk in the team chat, see everything, and stress about none of it. You're a master of saving energy for the things that actually deserve it.",
-    "You're living proof that slow and steady still makes for a good life. The air around you just relaxes; people's shoulders drop when they sit near you. So keep floating. Tired folks always know which way to swim."
+    "You come with your own warm pool, and the air around you just relaxes; people's shoulders drop when they sit near you. Every Thursday afternoon, when the week drags hardest, coworkers find excuses to drift over to your desk and soak in your calm for a minute."
    ],
    "tags": [
     "Chief Lurker",
@@ -1184,16 +1190,16 @@ window.TI_LANG.en = {
     "Your weekly report: shortest on the team, every week",
     "Some to-dos you simply outwaited until they solved themselves"
    ],
-   "love": "Loving you is like a warm bath: no fireworks, just steady comfort. Perfect date: takeout, a blanket, and zoning out together. You almost never get mad, so fights barely happen. One thing, though: next time they ask what you want for dinner, try an answer other than \"whatever.\"",
-   "work": "Your manager says \"my office for a sec?\" and the whole team imagines ten disasters; you think, \"Nice, a chance to stretch.\" You lurk deepest in the team chat, and when someone tags you, a calm \"on it\" slowly floats up. And it does get done. Clocking out on time is non-negotiable.",
+   "love": "Loving you is like sinking into a warm bath: steady, cozy, and impossible to leave. Perfect date: takeout, a blanket, and zoning out together. You almost never get mad, so fights barely happen. One request: next time they ask about dinner, name an actual dish instead of \"whatever.\" They'll be thrilled for hours.",
+   "work": "Your manager says \"my office for a sec?\" and the whole team imagines ten disasters; you think, \"Nice, a chance to stretch.\" You lurk deepest in the team chat, and when someone tags you, a calm \"on it\" slowly floats up, and the task lands safely. Clocking out on time is non-negotiable.",
    "friends": "Hanging out with you takes zero effort: no small talk required, and silence together feels great. Bad day? They come over, soak in your calm for an evening, hear a slow \"no rush, it'll work out,\" and leave half-healed.",
    "stress": "Under stress, you switch to power-saving mode: fewer words, slower replies. Calm as ever, just with a longer to-do list. What helps: someone sorting your priorities for you. \"Just this one thing today.\"",
    "recharge": "A long hot bath, soaking until your fingers wrinkle, then something warm to eat. Fully melted, fully recharged.",
-   "growth": "Chill is great. \"Whatever\" is a different animal. Set one tiny goal and reward yourself when it's done. And when someone asks your opinion, actually share it. People genuinely want to hear what you think.",
+   "growth": "Your chill is your signature move. \"Whatever\" can take a break, though. Set one tiny goal and reward yourself with a great meal when it's done. And when someone asks your opinion, say what you want. You speak up so rarely that the whole room goes quiet to listen.",
    "tips": [
     "Skip the early plans. Afternoons are their sweet spot.",
     "Want their opinion? Ask them directly.",
-    "If it's urgent, call. They may not be reading the chat."
+    "If it's urgent, call. The chat is where they go to lurk."
    ],
    "peeves": [
     "Don't tag them in the team chat after hours.",
@@ -1219,8 +1225,8 @@ window.TI_LANG.en = {
    "tagline": "Push me and I'll rock a little, then settle right back.",
    "desc": [
     "You're the fixed point in any crowd: few words, no rush, and a very made-up mind. While everyone else follows the herd and scrambles to keep up, you sit right where you are, rocking gently. You don't chase the buzz, and \"no\" comes easily. If you don't want to do it, nobody's talking you into it.",
-    "Sure, you seem a bit wooden. Inside, though, your mind is crystal clear. You decided long ago which battles are worth it and which crowds are worth skipping. Your calm isn't numbness; you just don't get dragged around by outside noise. People call you hard to move. Really, you just have a very good center of gravity.",
-    "You're the spot on the map that never moves: no matter how far everyone runs, they can look back and you'll still be there. That kind of steadiness is rare and precious. Keep holding your own pace, gently and firmly."
+    "Your mind is crystal clear. You decided long ago which battles are worth it and which crowds are worth skipping. Outside noise can get as loud as it likes; your rhythm doesn't budge. You were built with a perfect center of gravity: give you a push, you rock twice, and you settle right back where you were.",
+    "You're the spot on the map that never moves: however far everyone runs, they look back and you're right there, same posture and all. While the team chases every new trend, you rock a little when the wind blows and settle back when it stops. Everyone's secretly jealous."
    ],
    "tags": [
     "Healthy Boundaries",
@@ -1251,7 +1257,7 @@ window.TI_LANG.en = {
    "friends": "Your friends call you their landmark: years go by and you're in the same spot, same you. You don't cling, you don't do small talk, and you don't follow trends. When someone needs the unfiltered truth, yours is the first name they think of.",
    "stress": "Stressed? You go low-profile: notifications off, back to your corner, rocking slowly. Inside, it's calm; the hard stuff just gets set aside for later. What helps most: no pushing, just time. You'll rock back on your own.",
    "recharge": "Alone by the window, phone on silent, rocking away an entire afternoon. Your battery refills all by itself.",
-   "growth": "Staying put is great; one small step is fine too. Say yes once a month to an invite you'd normally skip. Think of it as a short trot around the block. Don't like it? Your spot will still be there.",
+   "growth": "Once a month, say yes to an invite you'd normally skip. Think of it as a short trot around the block. If it's fun, rock a little longer. If it's not, you've got a great excuse ready for next time.",
    "tips": [
     "Plan ahead. Last-minute invites are usually a no.",
     "When they say no, they mean no. Don't push.",
@@ -1282,7 +1288,7 @@ window.TI_LANG.en = {
    "desc": [
     "Gentle and quiet, you take care of everyone without making a sound. You rarely grab the mic, but when someone needs help, you're the soft \"I can do it.\" You'd rather drift with the current than compete, as long as you're close to the people you care about.",
     "Your little heart is incredibly sensitive. A slightly cool tone can keep you up all night, and one clumsy sentence can haunt you for a week. No wonder the brain's memory center, the hippocampus, is named after you: you remember every awkward moment, and every friend's tiny preferences.",
-    "Your sensitivity is a gentle radar that catches people's feelings before they hit the floor. Save a little of that care for yourself. It's okay to swim slowly; just hold on to the people and things you love. The ocean is big, but you're never drifting alone."
+    "Your sensitivity is a gentle radar: you catch people's feelings before they hit the floor. Who wants what for their birthday, what someone was stressed about last week: you remember it all. So when the group chat lights up with \"wait, you REMEMBERED?\", odds are it's aimed at you."
    ],
    "tags": [
     "Gentle Radar",
@@ -1309,11 +1315,11 @@ window.TI_LANG.en = {
     "Types, deletes, retypes, deletes. Never sent."
    ],
    "love": "Your heart runs slow and deep: never flashy, but every detail matters to you. You catch the tiniest shift in their tone, and you need a soft \"we're okay\" before you can fall asleep. Quiet walks beat big nights out, every single time.",
-   "work": "Someone's staying late? A candy quietly appears on their desk. That's you, the kindest person on the team. Replying \"sounds good\" takes you five minutes: exclamation point or no? Deadlines make you want to hide in the seagrass, but with a buddy lending a fin, you always make it to shore.",
+   "work": "Someone's staying late? A candy quietly appears on their desk. That's you, the kindest person on the team. Replying \"sounds good\" takes you five minutes: exclamation point or no? Deadlines make you want to hide in the seagrass, and then, at the last minute, you hand in the most thoughtful work on the team.",
    "friends": "You're the best listener your friends have: no interrupting, no judging, and days later you gently ask, \"So how did it go?\" You rarely make the plans, but you treasure every invite you get.",
    "stress": "When things get heavy, you curl your tail tight and replay everything on a loop. You rarely ask for help; you'd hate to be any trouble. What helps: someone who offers first (\"Want a hand?\") and tells you, \"This isn't your fault.\"",
    "recharge": "A small, cozy room, headphones on, one playlist on repeat all afternoon. Or a slow talk with the friend you trust most.",
-   "growth": "You're great at caring for other people's feelings. Care for yours too: \"I can't this time\" is a complete answer. Write your worries down; most look smaller by morning. You deserve to be held as gently as you hold others.",
+   "growth": "You're great at caring for other people's feelings. Care for yours too: \"I can't this time\" is a complete answer. Write your worries down; most look smaller by morning. And keep a candy in your own drawer, like the ones you sneak onto other people's desks.",
    "tips": [
     "Ask for their opinion. They won't volunteer it first.",
     "Add a smiley to your replies. It genuinely helps.",
@@ -1340,11 +1346,11 @@ window.TI_LANG.en = {
    "breed": "Mule",
    "nick": "Stubborn Spirit",
    "short": "Mule",
-   "tagline": "I'm not being stubborn. There's a cliff right there.",
+   "tagline": "Spotted the cliff before you did. You're welcome.",
    "desc": [
-    "You don't say much, your mind's made up, and you come with a built-in trouble radar. You can smell a bad plan or a shaky promise long before anyone else. When people say \"hurry up,\" you stop to check. It's not contrarianism. You just saw the problem first. Half horse, half donkey: double the stubborn.",
-    "You look a little grumpy, and there's a tiny rain cloud inside that never quite leaves: worried the plan will crack, worried a friend will get burned, worried it might rain (so there's always an umbrella in your bag). Your words grumble, your actions care. Tough shell, total softie.",
-    "Mules are famously stubborn and famously sure-footed: on a steep trail, they don't slip. Your stubbornness is protection, for you and for the people you love. Keep trusting your gut. Time and again, the spot where you dug in your hooves turns out to be the edge of a cliff."
+    "You don't say much, your mind's made up, and you come with a built-in trouble radar. You can smell a bad plan or a shaky promise long before anyone else. When people say \"hurry up,\" you stop to check, because you've already spotted the problem. Half horse, half donkey: double the stubborn.",
+    "A tiny rain cloud lives inside you and never quite leaves: worried the plan will crack, worried a friend will get burned, worried it might rain (so there's always an umbrella in your bag). Your words grumble, your actions care. Tough shell, total softie.",
+    "Mules are famously stubborn and famously sure-footed: on a steep trail, they don't slip. Everyone you care about is covered by that stubborn streak. And in every project recap, the team finds the same thing: the spot where you refused to take another step was the edge of a cliff."
    ],
    "tags": [
     "Secret Softie",
@@ -1372,13 +1378,13 @@ window.TI_LANG.en = {
    ],
    "love": "In love, you're a softie in armor. You'll say \"do whatever you want,\" then come home with their favorite snack anyway. You're slow to trust, but once you're in, you're stubbornly loyal. You never apologize first, but a hot drink quietly appears beside them. That's your \"sorry.\"",
    "work": "Meetings rarely hear from you, but when you say, \"I think there's a problem here,\" there usually is. Rushing you backfires: you need solid ground under every hoof. Nobody's title will get you to sign off on a plan you don't trust. You grumble \"another revision?\" yet you're the one who finds the hole.",
-   "friends": "Meet the friend group's grumpy-but-reliable risk consultant: you. Impulse buy? A \"guaranteed\" money-maker? Run it by you first. Your verdicts come unsweetened, but everyone knows it's because you're scared they'll get hurt.",
+   "friends": "Meet the friend group's grumpy-but-reliable risk consultant: you. Impulse buy? A \"guaranteed\" money-maker? Run it by you first. Your verdicts come unsweetened, and under every one of them is a quiet \"I don't want you getting hurt.\"",
    "stress": "Push a mule and it plants its hooves. Same with you: silent, a little rain cloud overhead, digging in deeper the harder people push. What helps: skip the pep talk, lay out the facts, and give you time to come around.",
    "recharge": "Time alone with a notebook, dumping every grumble onto the page until the rain cloud clears.",
-   "growth": "Your caution is valuable, but not every pothole needs your worry. Sort worries into two piles: \"can do something\" and \"set it down.\" When you push back, bring one option you'd accept. Your stubbornness becomes everyone's guardrail.",
+   "growth": "Your caution is valuable, so save it for the big potholes. Sort worries into two piles: \"can do something\" and \"set it down.\" When you push back, bring one option you'd accept. Your stubbornness becomes everyone's guardrail.",
    "tips": [
     "Want to convince them? Bring facts, not pressure.",
-    "When they nag you, that's how they show care.",
+    "Get roasted by them? You're officially family.",
     "Give them time. They'll come around on their own."
    ],
    "peeves": [
@@ -1404,32 +1410,32 @@ window.TI_LANG.en = {
    "breed": "A White Horse Is Not a Horse",
    "nick": "The Fence-Sitting Philosopher",
    "tagline": "Am I a horse? Depends how you define horse.",
-   "desc": "You picked \"Hard to say\" on {n} questions. Not because you can't decide, but because you see every angle: the setting, the mood, who's asking. You could debate whether a white horse counts as a horse all day, so of course you're still deciding which horse you are. Retake it on gut instinct and let the answer gallop out.",
-   "hint": "Hint: it lives on the fence.",
+   "desc": "You picked \"Hard to say\" on {n} questions, and answer sheets like that are rare around here. You're a master of balance: you read the room, the mood, and who's asking, and you never tip the scale. You could debate whether a white horse counts as a horse all day, and if anyone asks which horse you are, you'll reply, \"Define horse.\" Sixteen stalls, and not one of them can hold you.",
+   "hint": "Hint: pick \"Hard to say\" on 15+ questions",
    "unlock": "Ding! Secret horse found: A White Horse Is Not a Horse"
   },
   "echo": {
    "breed": "Workhorse Prime",
    "nick": "Yes, Noted!",
    "tagline": "Noted! On it! And yes, that's me too.",
-   "desc": "You agreed with {n} statements, including a few that flat-out contradict each other. You love a crowd and love hiding from one; you get jittery under pressure and never break a sweat. \"Yes, noted!\" is practically stamped on your horseshoes. You're so agreeable you can't even say no to yourself. Retake it on gut feeling, and feel free to say nay this time.",
-   "hint": "Hint: its favorite reply is \"Noted!\"",
+   "desc": "You agreed with {n} statements, including a few that flat-out contradict each other. You love a crowd and love hiding from one; you get jittery under pressure and never break a sweat. \"Yes, noted!\" is practically stamped on your horseshoes. Instant replies, every request accepted, a nod for every opinion in the room. You even answered this quiz with \"Noted.\" Workhorse Prime, in the flesh.",
+   "hint": "Hint: agree (\"Kind of me\" / \"Totally me\") on 23+ questions",
    "unlock": "Ding! Secret horse found: Workhorse Prime"
   },
   "rebel": {
    "breed": "Runaway Horse",
    "nick": "Born to Rebel",
    "tagline": "Not me. Also not me. Nice try with the reins.",
-   "desc": "You disagreed with {n} statements, even pairs that say the exact opposite of each other. You hate being labeled: the more tags people try to clip on, the harder you buck. Respect. But the herd would love to meet the real you, so retake it on gut feeling and see what's left once the labels fall off.",
-   "hint": "Hint: no rein can hold it.",
+   "desc": "You disagreed with {n} statements, even pairs that say the exact opposite of each other. You hate being labeled: the more tags people try to clip on, the harder you buck. This quiz tried to assign you a stall, and you were two fields away before the gate swung shut. A horse an entire personality test can't pin down? That's a rare breed.",
+   "hint": "Hint: disagree (\"Not me at all\" / \"Not really me\") on 23+ questions",
    "unlock": "Ding! Secret horse found: Runaway Horse"
   },
   "diode": {
    "breed": "All-In-or-All-Out",
    "nick": "No Middle Gear",
    "tagline": "Full gallop or full stop. Nothing in between.",
-   "desc": "On {n} questions, you went straight for the ends of the scale. The three middle options? Barely touched them. You're decisive, wholehearted, and refreshingly clear: full gallop or full stop, no trotting. But the pasture has a few gray patches too. Retake it on gut feeling, and let yourself say \"Kind of me\" this time.",
-   "hint": "Hint: it only has two gears.",
+   "desc": "On {n} questions, you went straight for the ends of the scale. The three middle options? Barely touched them. You're decisive, wholehearted, and refreshingly clear: full gallop or full stop, no trotting. Dinner orders take you two seconds, your texts come in \"yes\" and \"no,\" and you turned this whole quiz into a row of on/off switches. Two gears, zero neutral.",
+   "hint": "Hint: on 24+ questions pick only the two extremes, and use both",
    "unlock": "Ding! Secret horse found: All-In-or-All-Out"
   }
  },
@@ -1437,71 +1443,71 @@ window.TI_LANG.en = {
   "speed": {
    "name": "Turbo Horse",
    "nick": "Speedrun Stallion",
-   "desc": "Under 50 seconds, start to finish line! Your hooves moved faster than your brain. Did you even read the questions? Eh, a good horse runs on instinct anyway. This card goes to the fastest horse on the track.",
-   "hint": "Hint: outrun the wind.",
+   "desc": "Under 50 seconds, start to finish line! Your hooves moved faster than your brain: one glance at each question and you'd already tapped. Good horses run on instinct. This card goes to the fastest horse on the track.",
+   "hint": "Hint: finish all 28 in under 50 seconds",
    "unlock": "Whoosh! Easter egg: Turbo Horse"
   },
   "sloth": {
    "name": "Marathon Horse",
    "nick": "Built for Distance",
    "desc": "Over six minutes on one quiz. Either you deeply pondered every question, or you trotted off to a meeting and came back. Either way, you finished the course, and that earns you the Best Stamina award.",
-   "hint": "Hint: take the scenic route.",
+   "hint": "Hint: take your time, over 6 minutes total",
    "unlock": "Finally! Easter egg: Marathon Horse"
   },
   "night": {
    "name": "Night Rider",
    "nick": "Galloping by Starlight",
-   "desc": "Taking a personality quiz after midnight? Bold. The quiet hours are perfect for getting to know yourself, but the answer's in. Even horses need their sleep, so put the phone down and trot back to the stable.",
-   "hint": "Hint: ride when the moon is up.",
+   "desc": "Taking a personality quiz after midnight? Bold. The whole stable is asleep, and it's just you and the moon. This card is for the night riders. If you're yawning tomorrow, tell everyone you were on night patrol.",
+   "hint": "Hint: take the quiz between midnight and 5 a.m.",
    "unlock": "Shh... Easter egg: Night Rider"
   },
   "early": {
    "name": "Dawn Galloper",
    "nick": "Up Before the Rooster",
-   "desc": "The sun's barely up and you've already finished a personality quiz. The early horse gets the freshest hay, and this card is today's first bite. Now go gallop through your day at full horsepower.",
-   "hint": "Hint: beat your alarm clock.",
+   "desc": "The sun's barely up and you've already finished a personality quiz. The early horse gets the freshest hay, and this card is today's first bite. Everyone else is still bargaining with their alarm, and you're already at full horsepower.",
+   "hint": "Hint: take the quiz between 5 and 8 a.m.",
    "unlock": "Morning! Easter egg: Dawn Galloper"
   },
   "again": {
    "name": "Comeback Horse",
    "nick": "Back for Seconds",
    "desc": "That's your third finish on this device! Hunting for a different horse, or do you just like this pasture? They say a good horse never goes back for old grass. You did, proudly. Welcome back, old friend.",
-   "hint": "Hint: third lap's the charm.",
+   "hint": "Hint: finish the quiz 3 times on the same phone",
    "unlock": "Welcome back! Easter egg: Comeback Horse"
   },
   "twin": {
    "name": "Stablemates",
    "nick": "Same Stall, Who Knew?",
    "desc": "You got the exact same horse as the friend who invited you. No wonder you two click: you trotted out of the same stable. Send them this card and make plans already.",
-   "hint": "Hint: match the friend who sent you.",
+   "hint": "Hint: open a friend's invite link and get the same result",
    "unlock": "It's a match! Easter egg: Stablemates"
   },
   "shiny": {
    "name": "Shiny Steed",
    "nick": "Lucky Golden Hooves",
    "desc": "A 1-in-50 chance, and your horse showed up in gold. That's Year of the Horse luck right there, so don't waste it: treat yourself, text someone you miss, or at least screenshot this.",
-   "hint": "Hint: one in fifty horses shines.",
+   "hint": "Hint: a 1-in-50 chance after every quiz. Keep trying!",
    "unlock": "Sparkle alert! Easter egg: Shiny Steed"
   },
   "petter": {
    "name": "Mane Brusher",
    "nick": "Professional Pony Petter",
    "desc": "Thirty pats and counting! Every mane on this site is silky smooth now, and the horses have voted unanimously for more. You clearly have the gentle hands every horse dreams of.",
-   "hint": "Hint: the horses love a good brushing.",
+   "hint": "Hint: pet the horses on the page 30 times",
    "unlock": "Happy neighs! Easter egg: Mane Brusher"
   },
   "work": {
    "name": "Paid-Break Pony",
    "nick": "On-the-Clock Soul-Searcher",
    "desc": "You finished the whole quiz on a weekday, smack in the middle of work or class hours. We're calling it professional development: you learned something about yourself, on the clock. Now switch back to the real stuff; the horses won't tell.",
-   "hint": "Hint: try it between meetings.",
+   "hint": "Hint: take the quiz on a weekday, 9 a.m.–6 p.m.",
    "unlock": "Clocked it! Easter egg: Paid-Break Pony"
   },
   "carrot": {
    "name": "Carrot Catcher",
    "nick": "Finally Got the Carrot",
-   "desc": "You tapped the carrot dangling at the finish line three times and snatched it right off the stick. The carrot nobody ever catches? Yours now. Crunch away; you've earned the whole bunch.",
-   "hint": "Hint: the progress bar ends in a snack.",
+   "desc": "You tapped the carrot dangling at the finish line three times and snatched it right off the stick. The carrot nobody ever catches? Yours now. Crunch away, and help yourself to the whole bunch.",
+   "hint": "Hint: during the quiz, tap the carrot at the finish line 3 times",
    "unlock": "Crunch! Easter egg: Carrot Catcher"
   }
  },
@@ -1562,7 +1568,7 @@ window.TI_LANG.en = {
    "strength": "Your shared social rhythm gives you plenty of time together, and your different personalities show each of you another way to live. One's weak spot is often the other's strength, so the longer you're a pair, the better you balance out.",
    "tips": [
     "Before any project, agree on pace and who does what.",
-    "A different style doesn't mean they care less."
+    "Different style, same amount of care."
    ],
    "together": [
     "Day trip together",
@@ -1658,7 +1664,7 @@ window.TI_LANG.en = {
    "strength": "The outgoing one makes the quiet one's world bigger, with more interesting people in it. The quiet one shows the outgoing one that silence can be comfortable too. Together, you get both the buzz and the calm.",
    "tips": [
     "Agree on a leave time before you head out.",
-    "Wanting alone time isn't rejection. It's a recharge."
+    "Alone time is the quiet one's charger. Back soon at 100%."
    ],
    "together": [
     "Small dinner party",
@@ -1690,7 +1696,7 @@ window.TI_LANG.en = {
    "strength": "The diplomat shows the straight shooter that honesty lands better with a little warmth. The straight shooter teaches the diplomat to say no without the guilt. Each of you fills in the lesson the other skipped.",
    "tips": [
     "Straight shooter: lead with a little care before the hard truth.",
-    "Diplomat: you don't have to carry everyone's feelings."
+    "Diplomat: when you mean no, say no, and skip the apology."
    ],
    "together": [
     "Haggle at a market",
@@ -1702,7 +1708,7 @@ window.TI_LANG.en = {
    "name": "Dream Team",
    "summary": "You line up exactly where it matters most: the same drive, and the same way of dealing with people. Where you differ is social energy and nerves: one's outgoing, one's quiet; one worries, one stays zen. It's like someone matched you on purpose.",
    "dynamic": "One of you heads out and brings back the buzz and the contacts; the other keeps home base quiet with the light on. Emotionally, one senses the wind shift first and the other keeps a steady hand on the reins. A two-horse team in perfect stride.",
-   "friction": "Trouble starts when your timing's off: one wants a night out, the other wants the stable. One is quietly fretting while the other looks almost too calm. It's not that you don't care. Your batteries and frequencies just haven't synced yet.",
+   "friction": "Trouble starts when your timing's off: one wants a night out, the other wants the stable. One is quietly fretting while the other looks almost too calm. Your batteries and frequencies sometimes run half a beat apart.",
    "strength": "You share the same drive and the same values about people, so there's nothing big to fight over. And you differ exactly where it helps: one brings energy, one brings calm; one sees trouble coming, one keeps everyone steady. Dream team, confirmed.",
    "tips": [
     "When nerves run high, the zen one listens first and reasons later.",
@@ -1721,7 +1727,7 @@ window.TI_LANG.en = {
    "friction": "How often you meet and how you talk are your two landmines. One feels you barely hang out; the other feels overbooked. One softens every word so nobody gets hurt; the other finds all that cushioning exhausting.",
    "strength": "Between you, you've got the whole toolkit: one warms up a room, one listens deeply; one brings the tact, one brings the guts to say it. Split across two people, that's a complete set of social skills.",
    "tips": [
-    "Different delivery isn't disrespect. Don't take it personally.",
+    "Different delivery, same respect. Listen for the message.",
     "Before plans, check how much social battery is left."
    ],
    "together": [
