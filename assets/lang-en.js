@@ -302,7 +302,7 @@ window.TI_LANG.en = {
   "s5t": "Secret horses & Easter eggs",
   "s5b": "4 secret horses are summoned by special ways of answering, and 10 Easter egg cards hide in your speed, the clock, the carrot and the horses themselves. Every horse on this site can be petted. Hints are in The Stable.",
   "pt": "Privacy",
-  "pb": "Your answers are scored on your device and never uploaded. To show visitor numbers, the site only counts finished quizzes and the result type (e.g. \"Thoroughbred\"); no IP, name or personal info is stored. The open count on the home page comes from Busuanzi, a third-party counter. Your result lives in your own browser; clearing browser data deletes it.",
+  "pb": "Your answers are scored on your device and never uploaded. The site only counts finished quizzes and the result type (e.g. \"Thoroughbred\"); no IP, name or personal info is stored. Page opens are counted by Busuanzi, a third-party counter. Your result lives in your own browser; clearing browser data deletes it.",
   "rt": "References",
   "ct": "Credits",
   "cb": "All MATI copy and horse illustrations are original; the questions are adapted from the public-domain IPIP. Please credit when sharing. QR codes by qrcode-generator (MIT)."
