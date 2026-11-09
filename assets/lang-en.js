@@ -15,7 +15,8 @@ window.TI_LANG.en = {
    "28 Qs",
    "~3 min",
    "16 horses",
-   "14 secret cards"
+   "3 secret horses",
+   "10 Easter eggs"
   ],
   "start": "Start the quiz",
   "proofBase": "",
@@ -180,9 +181,9 @@ window.TI_LANG.en = {
   "galTypes": "16 Horses",
   "galMetHint": "Horses you got get a \"Met\" stamp; horses your friends brought get a \"Friend\" stamp",
   "galHidden": "Secret Horses",
-  "galHiddenSub": "Follow the hints to summon them",
-  "galEggs": "Easter Egg Cards",
-  "galEggsSub": "Hidden in your speed, the clock, the carrot and the horses themselves",
+  "galHiddenSub": "Secret horses depend on how you answer, not on your personality. When one shows up, it replaces your regular horse as your result.",
+  "galEggs": "Easter Eggs",
+  "galEggsSub": "Easter eggs are collectibles you unlock by playing around. They have nothing to do with personality and never change your result. Follow the steps on each card to unlock it.",
   "met": "Met",
   "locked": "???",
   "tryType": "Am I this horse? Take the quiz",
@@ -217,9 +218,17 @@ window.TI_LANG.en = {
   "hintPet": "Pet me! There's a surprise.",
   "hintPetMore": "{n} more pats to unlock \"{egg}\"",
   "hintGoal": "Tap me 3 times!",
-  "tipsTitle": "Easter eggs still waiting for you",
-  "tipsProgress": "{a} of {b} secret cards unlocked",
-  "tipsMore": "See them all →"
+  "tipsTitle": "Secret horses and Easter eggs still waiting for you",
+  "tipsProgress": "{a} of {b} unlocked",
+  "tipsMore": "See them all →",
+  "galHiddenWhy": "Why secret horses exist →",
+  "unlocked": "Unlocked",
+  "howLabel": "How to unlock",
+  "whyLabel": "Why it's a secret horse",
+  "whyTitle": "Why a secret horse?",
+  "whyMore": "See the science →",
+  "eggNoteLabel": "Does it change my result?",
+  "eggNote": "No. Easter eggs are just for fun and have nothing to do with personality."
  },
  "dims": {
   "C": {
@@ -299,13 +308,21 @@ window.TI_LANG.en = {
   ],
   "s4t": "Horses have personality too",
   "s4b": "Lloyd et al. (2008) found that horse personality can be measured, with components such as dominance, anxiousness, excitability, protection, sociability and inquisitiveness, and differences between breeds. Still, every horse is its own horse, and so are you. 2026 is the Year of the Horse: may you run happy this year, and rest easy too.",
-  "s5t": "Secret horses & Easter eggs",
-  "s5b": "4 secret horses are summoned by special ways of answering, and 10 Easter egg cards hide in your speed, the clock, the carrot and the horses themselves. Every horse on this site can be petted. Hints are in The Stable.",
+  "s5t": "Where secret horses and Easter eggs come from",
+  "s5b": "Secret horses and Easter eggs are two different things. A secret horse depends on how you answer and replaces your regular horse as your result. Easter eggs are collectibles you unlock by playing around, and they don't affect your result.",
   "pt": "Privacy",
   "pb": "Your answers are scored on your device and never uploaded. The site only counts finished quizzes and the result type (e.g. \"Thoroughbred\"); no IP, name or personal info is stored. Page opens are counted by Busuanzi, a third-party counter. Your result lives in your own browser; clearing browser data deletes it.",
   "rt": "References",
   "ct": "Credits",
-  "cb": "All MATI copy and horse illustrations are original; the questions are adapted from the public-domain IPIP. Please credit when sharing. QR codes by qrcode-generator (MIT)."
+  "cb": "All MATI copy and horse illustrations are original; the questions are adapted from the public-domain IPIP. Please credit when sharing. QR codes by qrcode-generator (MIT).",
+  "s5l": [
+   "<b>A White Horse Is Not a Horse</b>: \"Hard to say\" on 15+ questions. Psychologists call this midpoint responding. With more than half the questions left neutral, each trait rests on just two or three answers, too few to pick a horse reliably.",
+   "<b>Workhorse Prime</b>: agree on 23+ questions. This is acquiescence, or yea-saying: agreeing no matter what the statement says. Half the questions on each MATI trait are worded in reverse, like \"Give me a task and I'll finish it early, no reminders needed\" and \"I can't really get started until the night before the deadline.\" Agree with both and the scores cancel out.",
+   "<b>Runaway Horse</b>: disagree on 23+ questions. This is nay-saying, the mirror image: rejecting both versions cancels the scores just the same.",
+   "Researchers who study response styles treat these patterns as biases that distort scale scores (Baumgartner & Steenkamp, 2001; Van Vaerenbergh & Thomas, 2013). Serious tests check for them too: the MMPI uses validity scales to flag answer sheets with too many skipped items, or almost all \"true\" or all \"false\" answers, as invalid (Butcher et al., 2001). MATI turns those answer sheets into secret horses.",
+   "The cutoffs of 15 and 23 are our own rules of thumb, and normal answering almost never hits them. Picking only the two extremes is also a response style, but it keeps the direction of your answers, so your type still holds and we don't make it a secret horse.",
+   "The 10 Easter egg cards hide in your speed, the time of day, office hours, how many times you play, invite links, pure luck, the carrot and the horses themselves. They're just for fun, have nothing to do with personality and never change your result. Each card's unlock steps are in the collection."
+  ]
  },
  "scale": [
   "Not me at all",
@@ -1412,7 +1429,8 @@ window.TI_LANG.en = {
    "tagline": "Am I a horse? Depends how you define horse.",
    "desc": "You picked \"Hard to say\" on {n} questions, and answer sheets like that are rare around here. You're a master of balance: you read the room, the mood, and who's asking, and you never tip the scale. You could debate whether a white horse counts as a horse all day, and if anyone asks which horse you are, you'll reply, \"Define horse.\" Sixteen stalls, and not one of them can hold you.",
    "hint": "Hint: pick \"Hard to say\" on 15+ questions",
-   "unlock": "Ding! Secret horse found: A White Horse Is Not a Horse"
+   "unlock": "Ding! Secret horse found: A White Horse Is Not a Horse",
+   "why": "You picked \"Hard to say\" on more than half the questions, so each trait rests on just two or three answers. Picking a horse from that wouldn't be reliable. Psychologists call this midpoint responding."
   },
   "echo": {
    "breed": "Workhorse Prime",
@@ -1420,7 +1438,8 @@ window.TI_LANG.en = {
    "tagline": "Noted! On it! And yes, that's me too.",
    "desc": "You agreed with {n} statements, including a few that flat-out contradict each other. You love a crowd and love hiding from one; you get jittery under pressure and never break a sweat. \"Yes, noted!\" is practically stamped on your horseshoes. Instant replies, every request accepted, a nod for every opinion in the room. You even answered this quiz with \"Noted.\" Workhorse Prime, in the flesh.",
    "hint": "Hint: agree (\"Kind of me\" / \"Totally me\") on 23+ questions",
-   "unlock": "Ding! Secret horse found: Workhorse Prime"
+   "unlock": "Ding! Secret horse found: Workhorse Prime",
+   "why": "Half the questions on each trait are worded in reverse. Agreeing with nearly everything means agreeing with opposite statements, so the scores cancel out and any horse we picked would be mostly luck. Psychologists call this acquiescence, or yea-saying."
   },
   "rebel": {
    "breed": "Runaway Horse",
@@ -1428,15 +1447,8 @@ window.TI_LANG.en = {
    "tagline": "Not me. Also not me. Nice try with the reins.",
    "desc": "You disagreed with {n} statements, even pairs that say the exact opposite of each other. You hate being labeled: the more tags people try to clip on, the harder you buck. This quiz tried to assign you a stall, and you were two fields away before the gate swung shut. A horse an entire personality test can't pin down? That's a rare breed.",
    "hint": "Hint: disagree (\"Not me at all\" / \"Not really me\") on 23+ questions",
-   "unlock": "Ding! Secret horse found: Runaway Horse"
-  },
-  "diode": {
-   "breed": "All-In-or-All-Out",
-   "nick": "No Middle Gear",
-   "tagline": "Full gallop or full stop. Nothing in between.",
-   "desc": "On {n} questions, you went straight for the ends of the scale. The three middle options? Barely touched them. You're decisive, wholehearted, and refreshingly clear: full gallop or full stop, no trotting. Dinner orders take you two seconds, your texts come in \"yes\" and \"no,\" and you turned this whole quiz into a row of on/off switches. Two gears, zero neutral.",
-   "hint": "Hint: on 24+ questions pick only the two extremes, and use both",
-   "unlock": "Ding! Secret horse found: All-In-or-All-Out"
+   "unlock": "Ding! Secret horse found: Runaway Horse",
+   "why": "Disagreeing with nearly everything rejects the regular and the reversed questions alike, so the scores cancel out here too. Psychologists call this nay-saying."
   }
  },
  "eggs": {
@@ -1779,6 +1791,9 @@ window.TI_LANG.en = {
   "This paper introduced measuring attitudes with graded answer options, now known as the Likert scale. MATI's 5-point scale, from \"Not me at all\" to \"Totally me,\" works the same way.",
   "Having 5 to 6 answer options is close to optimal. MATI uses 5: accurate enough, and quick to tap on your phone.",
   "Personality works more like sliding scales than clear-cut types. MATI scores you continuously first, then shows a horse and tells you who else you're a bit like.",
-  "The Barnum effect: vague descriptions make everyone say \"That's so me!\" MATI's write-ups are tied to your actual scores, so different scores get different words."
+  "The Barnum effect: vague descriptions make everyone say \"That's so me!\" MATI's write-ups are tied to your actual scores, so different scores get different words.",
+  "Defines and measures five response styles, including acquiescence, disacquiescence, midpoint and extreme responding, and shows they distort scale scores. MATI's 3 secret horses match the first three.",
+  "A review of response-style research: where these habits come from, how they bias results and how to handle them.",
+  "The MMPI-2 checks every answer sheet with validity scales and flags ones with too many skipped items, or nearly all \"true\" or all \"false\" answers, as invalid. MATI turns those into secret horses."
  ]
 };
